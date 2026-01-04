@@ -1,0 +1,222 @@
+Hallo zusammen!
+
+In möchte ich Ihnen anhand des Schichtenmodells erklären, wie das Internet funktioniert.
+
+Dieses Video besteht aus zwei Teilen: Im ersten Teil starten wir mit einem Vergleich, [click] und zwar möchte ich ein Gaming-Setup (bestehend aus PC, Bildschirm, Tastatur, Maus, usw.) an meine Oma verschicken.
+Mich sieht man hier links im Bild, ich wohne in München.
+Meine Oma ist rechts im Bild, sie wohnt in Hamburg.
+
+[click] Was sind nun die einzelnen Schritte, welche hierzu notwendig sind?
+
+[click] Das Ziel bzw. die Anwendung ist der Versand eines vollständigen Gaming-Setups bestehend aus mehreren Komponenten.
+
+[click] Zunächst müssen wir die verschiedenen Komponenten in Kartons aufteilen.
+[click] Wir nummerieren die Kartons, damit wir wissen wie viele es sind und in welcher Reihenfolge diese versendet werden.
+Wie auch im Internet können Pakete jederzeit verloren gehen, und abhängig von der Anwendung überlegen wir, ob wir Pakete versichert oder unversichert versenden wollen.
+
+[click] Als nächstes machen wir auf jeden Karton ein Paketaufkleber, auf welchem der Absender, und noch viel wichtiger die Empfangsadresse steht.
+[click] Die Empfangsadresse besteht üblicherweise aus PLZ, Ort und Straße. Die Empfangsadresse ist weltweit eindeutig.
+
+Nachdem wir die einzelnen Pakete adressiert haben, [click] laden wir jedes Paket in unseren Privat-PKW ein.
+
+[click] Wir fahren das Paket dann zum nächsten Paketshop und laden das Paket aus.
+
+Bei der Fahrt zum Paketshop bewegt sich das Paket das erste Mal physikalisch von einem Ort zum nächsten, nämlich von meinem Zuhause zum Paketshop.
+Die Straße, auf welcher ich fahre, teile ich mir mit anderen Autos. Man kann daher sagen, die Straße ist ein gemeinsam genutztes Medium.
+
+Sobald das Paket im Paketshop abgegeben wurde, bin ich nicht mehr für das Paket zuständig.
+
+Der Paketshop nimmt dann das Paket und schaut anhand der Empfangsadresse, in welche Richtung es gesendet werden soll.
+In unserem Beispiel von München nach Hamburg, d. h. das Paket wird in einen LKW geladen,[click] und dieser fährt über die Autobahn zum Paketdepot nach Hamburg.
+[click] Statt mit dem LKW könnte das Paket auch mit dem Zug auf der Schiene, mit dem Flugzeug in der Luft, oder einem Schiff auf dem Wasser transportiert werden.
+
+Beim Paketdepot angekommen wird das Paket wieder ausgeladen.
+
+Kurze Anmerkung: In der Praxis wird ein Paket wahrscheinlich über mehrere Paketdepots weitergeleitet.
+Zwecks der Übersichtlichkeit gibt es in unserem Beispiel aber nur ein Paketdepot, das ist vollkommen ausreichend um das Prinzip zu erklären.
+
+Im Paketdepot wird wieder anhand der Zieladresse geschaut, wo das Paket als nächstes hin muss.
+[click] Entsprechend wird es in ein Paketauto eingeladen und zur Adresse meiner Oma gefahren.
+
+Dort angekommen wird es ausgeladen und [click] wie bei vielen Paketlieferdiensten leider üblich einfach vor die Haustür gestellt.
+
+Als nächstes [click] muss meine Oma daher die empfangenen Pakete prüfen und wieder in die richtige Reihenfolge bringen.
+Wir erinnern uns, dass ich beim Versand auf jeden Karton eine Nummer geschrieben habe.
+
+Sobald meine Oma alle Kartons unversehrt empfangen hat,[click] kann sie endlich ihr Gaming-Setup aufbauen und richtig zocken!
+
+---
+
+Bisher sind wir die einzelnen Schritte bei jedem Teilnehmer (als bei mir, dem Paketshop, dem Paketdepot, und bei meiner Oma) von oben nach unten bzw. von unten noch oben durchgegangen.
+Von oben nach unten haben wir etwas versendet, von unten nach oben haben wir etwas empfangen.
+Dies wird auch als vertikale Kommunikation bezeichnet.
+
+Man kann aber auch die Aufgaben auf horizontaler Ebene vergleichen.
+Man spricht dann von horizontaler Kommunikation.
+Jede Ebene entspricht einer Schicht, daher auch der Name Schichtenmodell.
+Lassen Sie uns dass etwas genauer anschauen.
+
+[click] Die oberste Schicht ist die Anwendungsschicht (engl. Application Layer).
+Hier geht es darum, dass das Gaming-Setup vollständig und korrekt von mir zu meiner Oma gelangen soll.
+In wie viele Pakete es aufgeteilt wird, wie diese Pakete von München nach Hamburg kommen, oder ob diese auf der Straße oder Schiene befördert werden ist hier völlig egal.
+Es kommt nur auf das Ergebnis an.
+Also, dass meine Oma das Gaming-Setup genauso benutzen kann wie ich es vorher benutzt habe.
+
+[click] Die nächste Schicht ist die Transportschicht (engl. Transport Layer).
+Hier geht es darum, die einzelnen Komponenten beim Senden in Kartons aufzuteilen, und beim Empfangen wieder zusammenzufügen.
+Hierzu vergibt der Sender eine sog. Sequenznummer.
+Anhand dieser kann der Empfänger die empfangenen Kartons wieder in die richtige Reihenfolge bringen und auch verlorene Pakete erkennen.
+Grundsätzlich gibt es die Möglichkeit Pakete versichert oder unversichert zu verschicken, im Internet entspricht das den Protokollen TCP bzw. UDP.
+Bei TCP wäre es so, dass ein Paket erneut geschickt wird, falls es verloren geht.
+Der Transportschicht ist es egal, was in den Kartons ist.
+Lediglich die Zuordnung, dass ein bestimmter Karton zur Anwendung "Gaming-Setup" gehört, ist wichtig.
+Genau wie der Anwendungsschicht ist es der Transportschicht egal, wie die Pakete von München nach Hamburg kommen, oder ob die Pakete auf der Straße oder Schiene befördert werden.
+
+[click] Als nächstes kommt die Vermittlungsschicht (engl. Network Layer oder manchmal auch als Internet Layer bezeichnet).
+Hier werden einzelne Pakete betrachtet.
+Diese Schicht ist dafür zuständig, dass ein Paket den Weg zum Empfänger findet.
+Hierzu wird es von Station zu Station weitergereicht, in unserem Beispiel von mir zum Paketshop, vom Paketshop zum Paketdepot, und vom Paketdepot zu meiner Oma. 
+Unterschiedliche Pakete können über unterschiedliche Wege transportiert werden, das wäre völlig okay. 
+Der Vermittlungsschicht ist es völlig egal, was in den Paketen ist, der Vermittlungsschicht ist es auch egal wie viele Pakete insgesamt von mir zu meiner Oma geschickt werden, und der Vermittlungsschicht ist es auch egal falls ein Paket verloren geht.
+Falls ein Paket verloren geht, soll sich später die Transportschicht darum kümmern.
+Auch ist es der Vermittlungsschicht egal, ob ein Paket mit Auto, LKW oder Flugzeug zur nächsten Station gelangt. Dafür ist die darunterliegende Schicht zuständig.
+
+[click] Die nächste, darunterliegende Schicht ist die Sicherungsschicht (engl. Data Link Layer).
+Diese Schicht ist dafür zuständig, dass ein Paket von einer Station zur nächsten kommt, also z. B. vom Paketshop zum Paketdepot.
+Wir haben hier als Beispiel den Transport auf der Straße verwendet, da muss z. B. darauf geachtet werden, dass nicht zwei Autos gleichzeitig an einer Kreuzung losfahren, um Kollisionen zu vermeiden.
+Diese Schicht sorgt dafür, dass das gemeinsam genutzte Medium (in dem Fall die Straße) von mehreren Teilnehmern genutzt werden kann. 
+Wer der ursprüngliche Sender und wer letztendlich der Empfänger ist, spielt für diese Schicht keine Rolle, das war die Aufgabe der Vermittlungsschicht.
+In der Sicherungsschicht geht es nur darum, dass ein Paket innerhalb eines lokalen Bereichs zum nächstgelegenen Ziel, also z. B. dem Paketdepot, weitergeleitet wird.
+Wieder gilt: Inhalt der Pakete, Anzahl der Pakete und ein Paketverlust sind der Sicherungsschicht egal, dafür sind höhere Schichten zuständig.
+
+[click] Zuletzt gibt es noch die Bitübertragungsschicht oder manchmal auch physikalische Schicht genannt (angelehnt an den engl. Begriff Physical Layer).
+Hier ist wirklich nur das Medium gemeint, also z. B. die Straße, Schiene, Luft oder Wasser. So kann z. B. eine Straße von PKWs oder LKWs genutzt werden.
+Beides sind unterschiedliche Fahrzeuge auf der Sicherungsschicht, nutzen aber das gleiche Medium (die Straße) auf der Bitübertragungsschicht.
+Bei der Bitübertragungsschicht und Sicherungsschicht gibt es oftmals Abhängigkeiten, so ist z. B. bei einer Straße ein Fahrzeug mit Rädern von Vorteil, bei Beförderung in der Luft ist ein Gerät mit Flügeln notwendig, und bei Beförderung auf Wasser sollte es schwimmen können.
+
+---
+
+[click] Zusammengefasst lässt sich also schon jetzt erkennen, dass jede Schicht spezielle Funktionen und Aufgaben wahrnimmt.
+Jede Schicht nutzt die Dienste der darunterliegenden Schicht beim Senden, und beim Empfangen übergibt eine Schicht ihr Ergebnis an die darüberliegende Schicht.
+Am Ende ergänzen sich so alle Schichten zu einem großen Ganzen,[click][click] und die Oma hat Spaß mit ihrem Gaming-Setup.
+
+
+
+---
+[click: leere Folie]
+Soviel zum ersten Teil des Videos.
+Dieser soll Ihnen helfen, ein intuitives Verständnis für das Schichtenmodell zu vermitteln.
+Der zweite Teil des Videos wird technischer, dort sehen wir uns an, wie Daten-Pakete im Internet versendet werden.
+Das Gute ist, das wir hier genauso vorgehen können wie im ersten Teil des Videos.
+---
+
+
+
+[click]
+Statt ein Gaming-Setup zu versenden, wollen wir nun eine Datei übertragen.
+[click]
+Das ist eine typische Anwendung im Internet, genauso wie das Laden einer Webseite oder Senden einer E-Mail.
+
+[click] Zunächst haben wir eine sehr große Datei, welche wir in Teile zerlegen. 
+[click] Wir wollen die Daten zuverlässig übertragen, daher verwenden wir TCP.
+Der TCP-Header wird den Daten vorangestellt.
+Im TCP-Header gibt es eine Source- und Destination Port-Nummer.
+Durch diese Ports kann jede Verbindung eindeutig zugeordnet werden.
+Das ist z. B. wichtig, wenn man mehrere Dateien gleichzeitig zum gleichen Empfänger senden will.
+Im TCP-Header gibt es außerdem eine Sequenz-Nummer.
+Diese ermöglicht eine eindeutige Zuordnung der Daten, außerdem können durch die Sequenz-Nummern fehlende Daten erkannt werden (z. B. wegen verloren gegangener Pakete), und Sendewiederholungen initiiert werden.
+Der TCP-Header zusammen mit den nachfolgenden Daten wird als Segment bezeichnet.
+
+[click] Das TCP-Segment wird dann an die Vermittlungsschicht übergeben.
+[click] Dort wird der IP-Header vorangestellt, entweder IPv4 oder IPv6.
+Man spricht dann von einem IP-Paket.
+Der wichtigste Teil eines IP-Headers sind die IP-Adressen.
+Die Ziel-IP-Adresse wird benötigt wird um das Paket an den Empfänger zu senden.
+Die Quell-IP-Adresse gibt an, von welchem Sender das Paket stammt.
+
+[click] Als nächstes wird das IP-Paket an die Sicherungsschicht übergeben.
+[click] Dort bekommt es einen Ethernet-Header, da wir in unserem Beispiel Ethernet verwenden.
+Der Ethernet-Header und die darin enthaltenen Daten werden als Frame bezeichnet.
+[click] Der Ethernet-Frame wird in einem räumlich begrenzten Bereich übertragen, dem Local Area Network, hier grün markiert.
+Im Ethernet-Header werden MAC-Adressen verwendet, um Daten innerhalb des Local Area Networks zu übertragen.
+In einem Local Area Network sind mehrere Geräte direkt miteinander verbunden, z. B. mittels eines Hubs, Switches oder per Funk.
+Ein Hub ist dabei relativ dumm, er arbeitet nur auf der Bitübertragungsschicht und verteilt alle Signale an alle Teilnehmer.
+Ein Switch ist intelligenter, er arbeitet auf der Sicherungsschicht und weiß anhand der MAC-Adressen welches Gerät sich wo befindet.
+Da sich in unserem Beispiel die Ziel-IP-Adresse jedoch nicht im Local Area Network befindet, sondern im Internet, wird der Ethernet-Frame zum Router geschickt, welcher das Gateway ins Internet ist.
+Jeder, der einen Internet-Zugang hat, hat auch einen Router, bekannt sind in Deutschland z. B. die FritzBoxen.
+[click] Sobald der Ethernet-Frame beim Router angekommen ist, wird der Ethernet-Header entfernt.
+
+[click] Der Router arbeitet auf Schicht 3, also der Vermittlungsschicht, und entscheidet anhand der Ziel-IP-Adresse im IP-Header, wohin das IP-Paket als nächstes gesendet werden soll.
+[click] Im Beispiel wird das Paket über Glasfaser-Leitungen vom Internet-Provider zum nächsten Router gesendet.
+Das bezeichnet man dann üblicherweise als Wide Area Network.
+[click] Für die Übertragung wird wieder ein passender Header vorangestellt, in diesem Beispiel erneut ein Ethernet-Header.
+[click] Normalerweise geht die Übertragung über mehrere Router, der Einfachheit halber belassen wir es aber hier bei einem zweiten Router, da der Ablauf in einem Router ja jedes mal gleich ist.
+
+Beim zweiten und in diesem Beispiel letzten Router angekommen, [click] wird wieder der Ethernet-Header entfernt.
+[click] Die Ziel-IP-Adresse im IP-Header befindet sich jetzt an einem direkt beim Router angeschlossenen Netzwerk. [click]
+Es wird erneut [click] ein für das Ziel-Netz passender Ethernet-Frame erzeugt und zum Ziel-Host gesendet. [click]
+In diesem Beispiel wird ein WLAN-Access-Point zur Übertragung im Local Area Network verwendet, angedeutet durch die Funkwellen.
+
+Beim Empfänger angekommen, werden die Schichten von unten nach oben durchlaufen und die entsprechenden Header ausgewertet und entfernt.
+Zuerst wird auf der Sicherungsschicht der Ethernet-Header entfernt [click], welcher für die Übertragung im Local Area Network benötigt wurde.
+[click] In der Vermittlungsschicht wird anschließend der IP-Header entfernt [click], welcher für die Übertragung durch das Internet benötigt wurde und den Ziel-Rechner eindeutig adressiert hat.
+[click] In der Transportschicht wird der TCP-Header ausgewertet und entfernt.
+[click] Der korrekte Empfang von Daten wird mit einem TCP-Acknowledgement (kurz ACK) bestätigt. Dieses TCP-ACK wird zurück zum Sender geschickt.
+Es durchläuft dabei alle Schichten und alle Router, genauso wie ein TCP-Datensegment zuvor.
+
+[click] Zuletzt werden die empfangenen Daten an die passende Stelle kopiert, solange bis die Datei vollständig übertragen ist.
+
+---
+
+Lassen Sie uns wieder die einzelnen Schichten besprechen.
+[click]
+Die Anwendungsschicht ist der Grund, warum wir überhaupt ein Computernetzwerk nutzen.
+Die Anwendungsschicht ist die Schnittstelle zwischen Mensch und Computer.
+Wir wollen z. B. eine Datei übertragen, eine E-Mail senden, eine Webseite aufrufen, ein VoIP-Telefongespräch führen, usw.
+Was im Hintergrund passiert, ist einem Endanwender egal, aber wir wollen natürlich im Detail verstehen, was passiert.
+
+[click]
+Um z. B. eine Datei in einem paketvermittelten Netzwerk zu übertragen, müssen wir diese beim Sender in mehrere Teile aufteilen, und beim Empfänger wieder zusammensetzen.
+Dies ist Aufgabe der Transportschicht. Die wichtigsten Protokolle sind hier TCP und UDP.
+TCP wird für zuverlässige Datenübertragung genutzt, verlorene Pakete werden hier erneut gesendet. TCP realisiert dies mittels Sequenznummern.
+UDP ist ein deutlich einfacheres und unzuverlässiges Protokoll, was z. B. für Echtzeit-Anwendungen wie Telefonie oder Videokonferenzen verwendet wird, wo eine Sendewiederholung keinen Sinn macht, weil dies zu lange dauern würde.
+Wichtig auf der Transportschicht sind die Ports, also Quell-Port und Ziel-Port.
+Diese werden benötigt, um mehrere Anwendungen bzw. Verbindungen zu unterscheiden.
+Die Ziel-Port-Nummer ist der Anwendung beim Empfänger zugeordnet, das veraltete File Transfer Protocol (FTP) nutzt z. B. Port 21, einen Webserver erreicht man üblicherweise unter Port 80 für unverschlüsseltes HTTP oder Port 443 für HTTPS (verschlüsseltes Web-Browsing). Port 25 ist für den unverschlüsselten Versand von E-Mails via SMTP, und so weiter …
+Der Quell-Port wird zufällig gewählt, so können mehrere Verbindungen gleichzeitig zum selben Ziel unterschieden werden, also z. B. mehrere Dateiübertragungen gleichzeitig zum gleichen Server.
+Das seit 2021 standardisierte QUIC-Protokoll ist ebenfalls ein zuverlässiges Transportprotokoll, so wie TCP, verwendet aber aus Kompatibilitätsgründen UDP.
+-- Grundsätzlich gilt: Der Transportschicht ist es egal, welche Daten sie transportiert, d. h. der Transportschicht ist es egal, ob eine E-Mail gesendet wird oder eine Datei übertragen wird. Beides ist eine zuverlässige Übertragung, für welche TCP verwendet wird.
+
+Sobald wir ein TCP-Segment haben, also einen TCP-Header und ein Daten-Häppchen, wird dies an die Vermittlungsschicht übergeben.
+[click]
+Dort wird ein IP-Header hinzugefügt, also entweder IPv4 oder IPv6.
+IP (die Abkürzung steht für Internet Protocol) ist das Protokoll, welches Daten innerhalb weniger Millisekunden an jeden beliebigen Ort der Welt übermittelt.
+Die Geräte auf dieser Schicht werden als Router bezeichnet.
+Wenn ein Router ein IP-Paket erhält, entscheidet er, wohin das Paket als nächstes gesendet werden soll: Entweder an den nächsten Router oder im letzten Schritt an das Zielnetzwerk.
+-- Der Vermittlungsschicht ist es egal, aus wie vielen TCP-Segmenten die Übertragung besteht, ihr ist es auch egal, wenn mal ein Paket verloren geht.
+Die Vermittlungsschicht ermöglicht die logische Adressierung mittels IP-Adressen und das Routing von Datenpaketen über mehrere Netze hinweg.
+
+Sobald die Vermittlungsschicht entschieden hat, zu welchem Gerät das IP-Paket als nächstes gesendet werden soll, wird es an die Sicherungsschicht übergeben.
+[click]
+Die Sicherungsschicht ist verantwortlich für die Zustellung innerhalb eines räumlich begrenzten Gebiets, einem Local Area Network oder einem Wide Area Network.
+Häufig wird Ethernet verwendet, man spricht dann auf dieser Schicht von Ethernet-Frames, das ist der Ethernet-Header und alles was darauf folgt.
+Im Wide Area Network könnte statt Ethernet auch das Point-to-Point-Protokoll oder andere Protokoll verwendet werden.
+Der Sicherungsschicht ist es egal, aus wie vielen TCP-Segmenten die Übertragung besteht, oder wie IP-Pakete den Weg durch das Internet finden.
+Das sind alles Aufgaben der höheren Schichten.
+Die Sicherungsschicht ist zuständig für die Übertragung von einem Gerät zum nächsten.
+
+Zuletzt noch die Bitübertragungsschicht.
+[click]
+Hier ist das physikalische Medium und die dazu passenden Signalformen relevant.
+Bei einem Kupferkabel werden z. B. elektrische Signale verwendet,
+bei einer Glasfaser werden Photonen übertragen,
+bei Funk elektromagnetische Wellen.
+Diese Schicht ist das Spezial-Gebiet von NachrichtentechnikerInnen, Grüße gehen raus an Claude Shannon.
+
+Lassen Sie uns das Video zusammenfassen.
+[click]
+Die wichtigste Aufgabe einer Schicht im Schichtenmodell ist es, klar abgegrenzte Funktionen bereitzustellen und ihre Komplexität zu kapseln.
+Jede Schicht nutzt die Dienste der darunterliegenden Schicht beim Senden, und beim Empfangen übergibt eine Schicht ihr Ergebnis an die darüberliegende Schicht.
+Am Ende ergänzen sich so alle Schichten zu einem großen Ganzen, und meine Oma hat erfolgreich die Datei empfangen.[click]
+
+Meine Oma und ich bedanken uns für's Zuhören und wünschen Ihnen noch einen schönen Tag!
