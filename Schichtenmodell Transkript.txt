@@ -21,7 +21,7 @@ Nachdem wir die einzelnen Pakete adressiert haben, [click] laden wir jedes Paket
 
 [click] Wir fahren das Paket dann zum nächsten Paketshop und laden das Paket aus.
 
-Bei der Fahrt zum Paketshop bewegt sich das Paket das erste Mal physikalisch von einem Ort zum nächsten, nämlich von meinem Zuhause zum Paketshop.
+Bei der Fahrt zum Paketshop bewegt sich das Paket das erste Mal physisch von einem Ort zum nächsten, nämlich von meinem Zuhause zum Paketshop.
 Die Straße, auf welcher ich fahre, teile ich mir mit anderen Autos. Man kann daher sagen, die Straße ist ein gemeinsam genutztes Medium.
 
 Sobald das Paket im Paketshop abgegeben wurde, bin ich nicht mehr für das Paket zuständig.
@@ -220,3 +220,4 @@ Jede Schicht nutzt die Dienste der darunterliegenden Schicht beim Senden, und be
 Am Ende ergänzen sich so alle Schichten zu einem großen Ganzen, und meine Oma hat erfolgreich die Datei empfangen.[click]
 
 Meine Oma und ich bedanken uns für's Zuhören und wünschen Ihnen noch einen schönen Tag!
+
